@@ -1,0 +1,2 @@
+Read the next string from the file.the from next 
+Check if that string exists in you HashMap
