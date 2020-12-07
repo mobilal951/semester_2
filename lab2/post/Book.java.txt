@@ -1,0 +1,30 @@
+public class Book
+{
+ String Title;
+ int bookNumber;
+ Boolean isBorrowed;
+ Author authors[10];
+ String publisher;
+ int memberId;
+ datetime issuedate;
+ 
+ Book(int Title,int bookNumber)
+ {
+ this.Title=Title;
+ this.bookNumber=bookNumber;
+ }
+ Book(int Title,int bookNumber,Author author)
+ {
+ this.Title=Title;
+ this.bookNumber=bookNumber;
+ author=authors[0];                             // ab idar pta nhi konsa uthor krna defaul to authors[10] he
+ }
+  Book(int Title,int bookNumber,Author author,String publisher)
+ {
+ this.Title=Title;
+ this.bookNumber=bookNumber;
+ author=authors[0];                             //same here
+ this.publisher=publisher;
+ 
+ }
+}
